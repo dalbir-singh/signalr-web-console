@@ -1,6 +1,6 @@
 # signalr-web-console
 
-@@image goes here@@
+![](Content/images/console.png)
 
 A web based output console for displaying progress messages when executing tasks using ASP.NET C# and SignalR.
 
