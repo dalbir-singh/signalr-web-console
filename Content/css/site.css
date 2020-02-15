@@ -1,0 +1,86 @@
+﻿body {
+    background: #bbb;
+    font-family: Arial, Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+div.button-container {
+    text-align: center;
+    margin: 3em;
+}
+
+div.button-container button {
+    display: inline-block;
+    padding: 0.7em 1.7em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: #172776;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    text-align: center;
+    position: relative;
+}
+
+div.ww-console {
+    background: black;
+    color: Snow;
+    width: 50%;
+    padding: 0 8px 12px 8px;
+    margin: 0 auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ww-console pre {
+    font: 11pt/1.25 Monaco, Consolas, monospace;
+    word-wrap: break-word;
+    white-space: pre-wrap
+}
+
+.ww-console span.header {
+    margin: 0;
+    padding: .7em;
+    display: inline-block;
+}
+
+.ww-console .green {
+    color: LawnGreen;
+}
+
+.ww-console .blue {
+    color: #008BF8;
+}
+
+.ww-console .violet {
+    color: violet;
+}
+
+.ww-console .yellow {
+    color: #EEB902;
+}
+
+.ww-console .orange {
+    color: GoldenRod;
+}
+
+.ww-console .red {
+    color: LightCoral;
+}
+
+.ww-console .cursor {
+    width: 8px;
+    height: 16px;
+    display: inline-block;
+    animation: cursor-blink 888ms infinite;
+}
+
+@keyframes cursor-blink {
+    50% {
+        background-color: #57ff57;
+    }
+}
