@@ -1,2 +1,7 @@
 # signalr-web-console
-A web based console for reporting progress information during backend execution using signalR in ASP.NET C#
+
+![alt text for image]
+
+A web based output console for displaying progress messages when executing tasks using ASP.NET C# and SignalR.
+
+## How to use
