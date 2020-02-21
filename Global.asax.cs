@@ -7,6 +7,7 @@ using System.Web.Routing;
 
 namespace SignalR.WebConsole
 {
+    // a digital comment
     // a remote comment
     public class MvcApplication : System.Web.HttpApplication
     {
