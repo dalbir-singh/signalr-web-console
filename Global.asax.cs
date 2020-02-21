@@ -11,6 +11,7 @@ namespace SignalR.WebConsole
     // a remote comment
     // another REMOTE comment
     // a LOCAL comment
+    // DEF
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
