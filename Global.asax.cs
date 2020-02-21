@@ -9,6 +9,7 @@ namespace SignalR.WebConsole
 {
     // a digital comment
     // a remote comment
+    // another REMOTE comment
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
