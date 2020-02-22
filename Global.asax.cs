@@ -7,12 +7,6 @@ using System.Web.Routing;
 
 namespace SignalR.WebConsole
 {
-    // a digital comment
-    // a remote comment
-    // another REMOTE comment
-    // a LOCAL comment
-    // DEF
-    // ABC
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
